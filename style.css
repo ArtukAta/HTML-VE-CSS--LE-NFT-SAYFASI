@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 20px;
+    background-color: hsl(216, 50%, 16%);
+    margin-bottom: 2px;
+
+
+
+}
+
+.image {
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    object-fit: cover;
+
+
+}
+
+.img {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text h3 {
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 17px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.pricing {
+    display: flex;
+    column-gap: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.pricing h3 {
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.pricing h2 {
+    font-size: 25px;
+    color: hsl(178, 100%, 50%);
+}
+
+.line {
+    width: 42%;
+}
+
+.profile {
+    display: inline-flex;
+    column-gap: 12px;
+    margin-top: 8px;
+
+}
+
+.profile img {
+    height: 4%;
+    width: 4%;
+    margin-left: 5px;
+
+}
+
+.profile h4 {
+    color: hsl(215, 51%, 70%);
+}
+
+.profile :last-child {
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card {
+        align-items: center;
+        max-width: 650px;
+        overflow: hidden;
+        border-radius: 15px;
+
+    }
+
+    .image {
+        object-fit: cover;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+
+    }
+
+
+
+
+
+
+
+}
